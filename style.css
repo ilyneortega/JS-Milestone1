@@ -77,4 +77,21 @@ body.correct {
 
 }
 
+.next-btn, .begin-btn {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+.controls {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.hide {
+    display: none;
+}
 
