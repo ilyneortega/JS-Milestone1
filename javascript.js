@@ -31,9 +31,72 @@ const questions = [
         answers: [
             {text: 'Slytherin', correct: false},
             {text: 'Gryffindor', correct: false},
+            {text: 'Ravenclaw', correct: false},
+            {text: 'Powerpuff', correct: true}, 
+        ],
+
+        question: "Who was Headmaster of Hogwarts after Dumbledore died?",
+        answers: [
+            {text: 'Snape', correct: false},
+            {text: 'McGonagall', correct: true},
+            {text: 'Hagrid', correct: false},
+            {text: 'Lupin', correct: false},
+        ],
+
+        question: "What position does Harry play on the Gryffindor Quidditch team?",
+        answers: [
+            {text: 'Seeker', correct: true},
+            {text: 'Keeper', correct: false},
+            {text: 'Beater', correct: false},
+            {text: 'Chaser', correct: false}
+        ],
+
+        question: "?",
+        answers: [
+            {text: 'Slytherin', correct: false},
+            {text: 'Gryffindor', correct: false},
             {text: 'Powerpuff', correct: true},
             {text: 'Ravenclaw', correct: false}
+        ],
 
+        question: "How does the wizard community communicate?",
+        answers: [
+            {text: 'Email', correct: false},
+            {text: 'Phone call', correct: false},
+            {text: 'Using an owl', correct: true},
+            {text: 'Mail', correct: false},
+        ],
+
+        question: "What is Hagrid's title at Hogwarts?",
+        answers: [
+            {text: 'Keeper of keys', correct: true},
+            {text: 'Head of Slytherin', correct: false},
+            {text: 'Wizard', correct: false},
+            {text: 'Headmaster', correct: false}
+        ],
+
+        question: "What is Harry's wand made out of?",
+        answers: [
+            {text: 'Phoenix feathers', correct: false},
+            {text: 'Ancient magic tree', correct: false},
+            {text: 'Holly wood', correct: false},
+            {text: 'Holly & Phoenix feathers', correct: true},
+        ],
+
+        question: "What is the Dursley family's address?",
+        answers: [
+            {text: '6 Private Drive', correct: false},
+            {text: '4 Private Drive ', correct: true},
+            {text: '5 Private Road', correct: false},
+            {text: '3 South Lane', correct: false},
+        ],
+
+        question: "What does Hagrid bring Harry the first time they met?",
+        answers: [
+            {text: 'Birthday Present', correct: false},
+            {text: 'Letter', correct: false},
+            {text: 'Birthday Cake', correct: true},
+            {text: 'Magic wand', correct: false}
         ]
     }
 ]
